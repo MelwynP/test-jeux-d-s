@@ -15,7 +15,7 @@ div.container{
 
 .boutonHold{
   position: absolute;
-  bottom: 15px;
+  bottom: 10px;
   left: 50%;
   transform: translate(-40px, -15px);
 }
@@ -27,7 +27,7 @@ div.container{
 
 .boutonRelancerDes{
   position: absolute;
-  bottom: 25px;
+  bottom: 20px;
   left: 50%;
   transform: translate(-50px, -45px);
 }
@@ -55,7 +55,7 @@ div.container{
 #logoDes{
   position: absolute;
   top: 47%;
-  left: 50%;
+  left: 53%;
   transform: translate(-55px, -50px);
   box-shadow: 0px 0px 45px grey
 }
@@ -87,7 +87,7 @@ p.pScoreTempo{
   width: 150px;
   height: 50px;
   position: absolute;
-  top: 70px;
+  top: 60px;
 }
 
 .scoreTotalPlayerOne{
@@ -95,7 +95,7 @@ p.pScoreTempo{
   height: 50px;
   background-color: rgba(76, 0, 255, 0);
   position: absolute;
-  top: 95px;
+  top: 85px;
 }
 
 .scoreTemporairePlayerOne{
@@ -103,7 +103,7 @@ p.pScoreTempo{
   width: 70px;
   background-color: rgb(255, 0, 0);
   position: absolute;
-  bottom: 115px;
+  bottom: 95px;
 }
 
 /* PLAYER TWO */
@@ -120,7 +120,7 @@ p.pScoreTempo{
   width: 150px;
   height: 50px;
   position: absolute;
-  top: 70px;
+  top: 60px;
 }
 
 .scoreTotalPlayerTwo{
@@ -128,7 +128,7 @@ p.pScoreTempo{
   height: 50px;
   background-color: rgba(76, 0, 255, 0);
   position: absolute;
-  top: 95px;
+  top: 85px;
 }
 
 .scoreTemporairePlayerTwo{
@@ -136,7 +136,7 @@ p.pScoreTempo{
   width: 70px;
   background-color: rgb(255, 0, 0);
   position:absolute ;
-  bottom: 115px;
+  bottom: 95px;
 }
 
 svg{
