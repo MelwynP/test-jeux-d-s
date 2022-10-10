@@ -15,9 +15,9 @@ div.container{
 
 .boutonHold{
   position: absolute;
-  bottom: 40px;
+  bottom: 0px;
   left: 50%;
-  transform: translate(-45px, -50px);
+  transform: translate(-40px, -15px);
 }
 .BHold{
   border: none;
@@ -27,9 +27,9 @@ div.container{
 
 .boutonRelancerDes{
   position: absolute;
-  bottom: 165px;
+  bottom: 10px;
   left: 50%;
-  transform: translate(-60px, -50px);
+  transform: translate(-50px, -45px);
 }
 
 .BRdes{
@@ -41,7 +41,7 @@ div.container{
 
 .boutonNewGame{
   position: absolute;
-  top: 95px;
+  top: 65px;
   left: 50%;
   transform: translate(-60px, -50px);
 }
@@ -87,7 +87,7 @@ p.pScoreTempo{
   width: 150px;
   height: 50px;
   position: absolute;
-  top: 100px;
+  top: 50px;
 }
 
 .scoreTotalPlayerOne{
@@ -95,7 +95,7 @@ p.pScoreTempo{
   height: 70px;
   background-color: rgba(76, 0, 255, 0);
   position: absolute;
-  top: 150px;
+  top: 75px;
 }
 
 .scoreTemporairePlayerOne{
@@ -103,7 +103,7 @@ p.pScoreTempo{
   width: 80px;
   background-color: rgb(255, 0, 0);
   position: absolute;
-  bottom: 130px;
+  bottom: 100px;
 }
 
 /* PLAYER TWO */
@@ -120,7 +120,7 @@ p.pScoreTempo{
   width: 150px;
   height: 50px;
   position: absolute;
-  top: 100px;
+  top: 50px;
 }
 
 .scoreTotalPlayerTwo{
@@ -128,7 +128,7 @@ p.pScoreTempo{
   height: 70px;
   background-color: rgba(76, 0, 255, 0);
   position: absolute;
-  top: 150px;
+  top: 75px;
 }
 
 .scoreTemporairePlayerTwo{
@@ -136,7 +136,7 @@ p.pScoreTempo{
   width: 80px;
   background-color: rgb(255, 0, 0);
   position:absolute ;
-  bottom: 130px;
+  bottom: 100px;
 }
 
 svg{

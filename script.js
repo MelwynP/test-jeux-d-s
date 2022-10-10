@@ -141,7 +141,6 @@ function hold() {
   }
 }
 
-//inversion des messages d'alertes ??
 function victoire () {
   if (scoreTotalJ1 >= 100) {
     alert ('Le joueur 1 gagne avec un score total de ' + scoreTotalJ1 + ' points');
