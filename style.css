@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+div.container{
+  height: 100vh;
+  background-color: rgb(110, 25, 25);
+  display: flex;
+  padding: 2% 2% 2% 2%;
+  font-family: 'Lato', sans-serif;
+}
+
+.boutonHold{
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-45px, -50px);
+}
+.BHold{
+  border: none;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+.boutonRelancerDes{
+  position: absolute;
+  bottom: 165px;
+  left: 50%;
+  transform: translate(-60px, -50px);
+}
+
+.BRdes{
+  border: none;
+  font-size: 18px;
+
+  background-color: transparent;
+}
+
+.boutonNewGame{
+  position: absolute;
+  top: 95px;
+  left: 50%;
+  transform: translate(-60px, -50px);
+}
+
+.BNewGame{
+  border: none;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+#logoDes{
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-55px, -50px);
+  box-shadow: 0px 0px 45px grey
+}
+
+p.pPlayers{
+  font-size: 1.4em;
+  font-weight: 500;
+  text-align: center;
+}
+
+p.pScoreTempo{
+  font-size: 14px;
+  padding-top: 5px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* PLAYER ONE */
+
+.containerPlayerOne{
+  width: 50%;
+  height: 100%;
+  background-color: rgba(237, 237, 237, 0.991);
+  display: flex;
+  justify-content: center;
+}
+
+.namePlayerOne{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 100px;
+}
+
+.scoreTotalPlayerOne{
+  width: 70px;
+  height: 70px;
+  background-color: rgba(76, 0, 255, 0);
+  position: absolute;
+  top: 150px;
+}
+
+.scoreTemporairePlayerOne{
+  height: 80px;
+  width: 80px;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  bottom: 130px;
+}
+
+/* PLAYER TWO */
+
+.containerPlayerTwo{
+  width: 50%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+
+.namePlayerTwo{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 100px;
+}
+
+.scoreTotalPlayerTwo{
+  width: 70px;
+  height: 70px;
+  background-color: rgba(76, 0, 255, 0);
+  position: absolute;
+  top: 150px;
+}
+
+.scoreTemporairePlayerTwo{
+  height: 80px;
+  width: 80px;
+  background-color: rgb(255, 0, 0);
+  position:absolute ;
+  bottom: 130px;
+}
+
+svg{
+  color: red;
+}
