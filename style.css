@@ -12,6 +12,39 @@ div.container{
   padding: 2% 2% 2% 2%;
   font-family: 'Lato', sans-serif;
 }
+/*REGLE DU JEU*/
+.boutonNotice{
+  position: absolute;
+  top: 35px;
+  left: 70%;
+}
+
+.notice{
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  background-color: transparent;
+}
+
+#regleDuJeu{
+  height: 600px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgb(123, 181, 228);
+  border-radius: 10% 10% 10% 10%;
+}
+
+.pRegleDuJeu{
+  padding: 15px;
+  color: rgb(26, 17, 17);
+  text-align: center;
+  font-size: 1.3em;
+}
 
 .boutonHold{
   position: absolute;
@@ -227,7 +260,22 @@ svg{
     background-color: transparent;
   }
 
+  #regleDuJeu{
+    height: 450px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(123, 181, 228);
+    border-radius: 10% 10% 10% 10%;
+  }
+  
+  .pRegleDuJeu{
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+  }
 
-
- 
 }
