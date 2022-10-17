@@ -112,16 +112,23 @@ p.pScoreTempo{
   font-weight: 700;
   text-align: center;
 }
-
-/* PLAYERS */
-
-.containerPlayerOne, .containerPlayerTwo{
+.containerPlayerOne{
   width: 50%;
   height: 100%;
   background-color: rgba(237, 237, 237, 0.991);
   display: flex;
   justify-content: center;
 }
+.containerPlayerTwo{
+  width: 50%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+
+/* PLAYERS */
+
 .namePlayerOne, .namePlayerTwo{
   width: 150px;
   height: 50px;
@@ -207,7 +214,7 @@ svg{
   }
   .boutonNewGame{
     position: absolute;
-    top: 70px;
+    top: 75px;
     left: 50%;
     transform: translate(-60px, -50px);
   }
@@ -224,10 +231,10 @@ svg{
     left: 65%;
   }
   #regleDuJeu{
-    height: 390px;
+    height: 330px;
     width: 360px;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -235,7 +242,7 @@ svg{
     border-radius: 10% 10% 10% 10%;
   }
   .pRegleDuJeu{
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     font-size: 0.8em;
   }
