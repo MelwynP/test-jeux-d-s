@@ -52,6 +52,18 @@ function laMainJ2 (){
   document.getElementById('laMainJ2').style.visibility='visible';
 }
 
+
+function finDeLaPartie () {
+  sommeJ1 = 0;
+  sommeJ2 = 0;
+  scoreTotalJ1 = 0;
+  scoreTotalJ2 = 0;
+  document.getElementById('scoreTempoJ1').innerHTML =  0;
+  document.getElementById('scoreTempoJ2').innerHTML =  0;
+  document.getElementById('scoreTotalJ1').innerHTML =  0;
+  document.getElementById('scoreTotalJ2').innerHTML =  0;
+}
+
 function nouvellePartie (){
   sonNewGame();
   laMainJ1();
@@ -174,9 +186,10 @@ function victoire (){
   if (scoreTotalJ1 >= 100) {
     sonVictoire();
     alert ('BRAVO \nLe joueur 1 gagne avec un score total de ' + scoreTotalJ1 + ' points \nFIN DE LA PARTIE \nCLIQUER SUR "NEW GAME" POUR RECOMMENCER');
+    finDeLaPartie();
   }
   else if (scoreTotalJ2 >= 100) {
     sonVictoire ();
     alert ('BRAVO \nLe joueur 2 gagne avec un score total de ' + scoreTotalJ1 + ' points \nFIN DE LA PARTIE \nCLIQUER SUR "NEW GAME" POUR RECOMMENCER');
-  }
+    finDeLaPartie();  }
 }
